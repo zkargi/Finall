@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321047729122",
+    "project_id": "finall-dbddf",
+    "storage_bucket": "finall-dbddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321047729122:android:eb0e3ef22e2cad94185fbb",
+        "android_client_info": {
+          "package_name": "com.zeynepkargi.finall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9mgA3ft8nLp71BmcjwSwsIwQ8vNPRy54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
