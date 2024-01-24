@@ -1,4 +1,4 @@
-package com.zeynepkargi.finall.ui.photo;
+package com.zeynepkargi.finall.ui;
 
 import static android.app.Activity.RESULT_OK;
 import static android.content.ContentValues.TAG;
@@ -133,7 +133,6 @@ public class AddPhotoFragment extends Fragment {
                             }
 
 
-
                      });
 
                     }
@@ -146,9 +145,4 @@ public class AddPhotoFragment extends Fragment {
     }
 
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
-    }
 }

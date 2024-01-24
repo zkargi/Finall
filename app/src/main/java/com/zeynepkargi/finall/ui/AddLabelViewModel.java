@@ -1,4 +1,4 @@
-package com.zeynepkargi.finall.ui.label;
+package com.zeynepkargi.finall.ui;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

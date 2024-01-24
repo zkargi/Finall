@@ -13,7 +13,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.zeynepkargi.finall.databinding.ActivityLoginBinding;
-import com.zeynepkargi.finall.ui.label.AddLabelFragment;
+import com.zeynepkargi.finall.ui.AddLabelFragment;
 
 public class LoginActivity extends AppCompatActivity {
     private ActivityLoginBinding binding;

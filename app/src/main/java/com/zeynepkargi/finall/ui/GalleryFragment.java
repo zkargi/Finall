@@ -1,4 +1,4 @@
-package com.zeynepkargi.finall.ui.gallery;
+package com.zeynepkargi.finall.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -29,9 +29,5 @@ public class GalleryFragment extends Fragment {
         return root;
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
-    }
+
 }

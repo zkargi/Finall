@@ -1,4 +1,4 @@
-package com.zeynepkargi.finall.ui.label;
+package com.zeynepkargi.finall.ui;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -87,8 +87,8 @@ public class AddLabelFragment extends Fragment {
         });
         return root;
     }
-    public class Label{
-        private String lbl_text;
+    public static class Label{
+        private final String lbl_text;
         public Label(String lbl_text){
             this.lbl_text=lbl_text;
         }
@@ -98,10 +98,4 @@ public class AddLabelFragment extends Fragment {
     }
 
 
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        binding = null;
-    }
 }
